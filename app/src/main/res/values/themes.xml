@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">@color/purple_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.CATonerecipe</item>
+
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_launcher_background</item>
+
+    </style>
+
+    <style name="Theme.CATonerecipe" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
